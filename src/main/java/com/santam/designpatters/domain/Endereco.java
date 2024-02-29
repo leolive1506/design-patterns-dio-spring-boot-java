@@ -14,8 +14,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Endereco {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    private String cep;
     private String logradouro;
     private String bairro;
     private String localidade;
